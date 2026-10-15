@@ -1,0 +1,14 @@
+interface:
+  display_name: Think Out Loud
+  short_description: Compile messy spoken thinking into reviewable prompts
+  default_prompt: Capture my thinking without executing it. Interpret corrections
+    and control phrases, then compile only when I ask or confirm I'm done.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
