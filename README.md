@@ -15,6 +15,8 @@ For **Codex**, place the complete `voice-prompt-interpreter` folder under your s
 - Windows: `%USERPROFILE%\.codex\skills\voice-prompt-interpreter\`
 - macOS/Linux: `~/.codex/skills/voice-prompt-interpreter/`
 
+If you download this repository as a ZIP, rename the extracted `think-out-loud-main` folder to `voice-prompt-interpreter`, or copy its contents into a folder with that name.
+
 These paths match the installed package location used to prepare this release. For other declared products, use the host's current skill import or installation process; the repository does not provide an installer for them.
 
 Keep `SKILL.md`, `agents/openai.yaml`, `assets/icon.svg`, and both files in `references/` together. The references describe the expected behavior and state transitions.
